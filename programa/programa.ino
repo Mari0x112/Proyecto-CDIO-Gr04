@@ -1,7 +1,7 @@
 #include <Wire.h> // Librería BUS I2C
 #include <Adafruit_ADS1X15.h> // Librería del ADS1115
 #include <EEPROM.h> // Libreria EEPROM (Electrically Erasable Programmable Read-Only Memory)
-#include <Sensor_Humedad.h> // Librería del SENO193 (PROPIA)
+#include <Sensor_Humedad.h> // Librería del SEN0193 (PROPIA)
 #include <Sensor_Salinidad.h> // Librería sensor SALINIDAD (PROPIA)
 #include <Sensor_Temperatura.h> // Librería sensor TEMPERATURA (PROPIA)
 #include <Sensor_Luminosidad.h> // Librería sensor LUMINOSIDAD (PROPIA)
@@ -9,7 +9,7 @@
 
 // CONSTRUCTORES:
 Adafruit_ADS1115 ads1115; // Constructor del ads1115
-sensorHumedad HUMEDAD; // Constructor seno193
+sensorHumedad HUMEDAD; // Constructor sen0193
 sensorSalinidad SALINIDAD; // Constructor salinidad
 sensorTemperatura TEMPERATURA; // Constructor temperatura
 sensorLuminosidad LUMINOSIDAD; // Constructor luminosidad
