@@ -1,0 +1,8 @@
+sensorTemperatura	KEYWORD1
+setADS_PIN		KEYWORD2
+readValue 		KEYWORD2
+getTemperature		KEYWORD2 
+getValue_m		KEYWORD2 
+getValue_n		KEYWORD2
+setValue_m 		KEYWORD2
+setValue_n 		KEYWORD2

@@ -1,0 +1,10 @@
+sensorHumedad		KEYWORD1
+setADS_PIN		KEYWORD2
+readValue 		KEYWORD2
+percentage 		KEYWORD2
+setAirValue 		KEYWORD2 
+setWaterValue 		KEYWORD2
+loadAirValue_EEPROM 	KEYWORD2 
+loadWaterValue_EEPROM 	KEYWORD2
+getAirValue 		KEYWORD2
+getWaterValue 		KEYWORD2

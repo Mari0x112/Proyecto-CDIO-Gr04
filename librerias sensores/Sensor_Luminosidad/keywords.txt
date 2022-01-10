@@ -1,0 +1,6 @@
+sensorLuminosidad	KEYWORD1
+setADS_PIN		KEYWORD2
+readValue 		KEYWORD2
+getBrightness		KEYWORD2 
+setSaturationValue	KEYWORD2 
+getSaturationValue	KEYWORD2

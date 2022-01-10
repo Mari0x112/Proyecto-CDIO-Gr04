@@ -1,0 +1,11 @@
+sensorSalinidad		KEYWORD1
+setADS_PIN		KEYWORD2
+readValue 		KEYWORD2
+percentage 		KEYWORD2
+setNoSaltValue		KEYWORD2 
+setSaltValue		KEYWORD2
+loadNoSaltValue_EEPROM	KEYWORD2 
+loadSaltValue_EEPROM	KEYWORD2
+getNoSaltValue		KEYWORD2
+getSaltValue		KEYWORD2
+setPower_PIN		KEYWORD2
