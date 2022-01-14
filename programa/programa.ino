@@ -327,6 +327,12 @@ void HTTPGet(String fieldData[], int numFields)
       PostData += "&field" + String( field ) + "=" + fieldData[ field ];
     }
     
+    client.print(PostData);         
+    client.println(" HTTP/1.1");
+    client.println("Host: " + String(Rest_Host)); 
+    client.println("Connection: close");
+    client.println();
+     
     Serial.println();                
     Serial.println("Datos enviados al servidor.");
     Serial.println();
